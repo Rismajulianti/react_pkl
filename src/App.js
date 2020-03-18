@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Images, Jumbotron, Button } from 'reactstrap';
 import Header from './Header';
-import Jumbo from './Jumbo';
-import Image from './Image';
+import Card from './Card';
+
 
 
 class App extends Component {
@@ -10,8 +10,8 @@ class App extends Component {
   return (
     <div>
     <Header />
-    <Jumbo />
-     <Images />
+    <Card />
+   
     </div>
   );
 }

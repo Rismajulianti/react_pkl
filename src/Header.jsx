@@ -28,7 +28,7 @@ import {
   }
   render() {
       return (
-          <div>
+          <div class="ml-3 fixed-top bg-black">
               <Navbar color="faded" light expand="md">
                   <NavbarBrand href="/">PERSIJA</NavbarBrand>
                   <NavbarToggler onClick={this.toggle} />
